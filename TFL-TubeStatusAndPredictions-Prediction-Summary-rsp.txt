@@ -1,0 +1,699 @@
+200
+
+<ROOT>
+    <Time TimeStamp="2015/05/20 13:04:54" />
+    <S Code="ALD" N="Aldgate.">
+        <P N="Eastbound - Platform 1" Code="1" Next="0">
+            <T S="201" T="10" D="103" C="2:30" L="At Liverpool Street Platform 1" DE="Circle Line" />
+            <T S="202" T="13" D="103" C="12:00" L="Between Euston Square and King's Cross" DE="Circle Line" />
+            <T S="203" T="11" D="518" C="24:00" L="Between Paddington and Edgware Road" DE="Check Front of Train" />
+            <T S="702" T="1" D="518" C="25:00" L="Between Notting Hill Gate and Paddington" DE="Check Front of Train" />
+            <T S="270" T="6" D="518" C="27:00" L="Between Ladbroke Grove and Royal Oak" DE="Check Front of Train" />
+        </P>
+        <P N="Northbound - Platform 2" Code="0" Next="0">
+            <T S="443" T="10" D="445" C="-" L="At Platform" DE="Uxbridge" />
+            <T S="407" T="8" D="12" C="5:00" L="At Moorgate Platform 1" DE="Aldgate" />
+            <T S="445" T="7" D="12" C="10:00" L="Between King's Cross and Farringdon" DE="Aldgate" />
+            <T S="446" T="8" D="12" C="20:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="410" T="6" D="12" C="23:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="447" T="6" D="12" C="25:00" L="Approaching Finchley Road" DE="Aldgate" />
+        </P>
+        <P N="Northbound - Platform 3" Code="0" Next="0">
+            <T S="407" T="8" D="12" C="5:00" L="At Moorgate Platform 1" DE="Aldgate" />
+            <T S="445" T="7" D="12" C="10:00" L="Between King's Cross and Farringdon" DE="Aldgate" />
+            <T S="446" T="8" D="12" C="20:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="410" T="6" D="12" C="23:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="447" T="6" D="12" C="25:00" L="Approaching Finchley Road" DE="Aldgate" />
+        </P>
+        <P N="Westbound - Platform 4" Code="0" Next="0">
+            <T S="211" T="13" D="196" C="-" L="At Platform" DE="Hammersmith" />
+            <T S="212" T="11" D="196" C="7:00" L="Between Blackfriars and Mansion House" DE="Hammersmith" />
+            <T S="213" T="13" D="196" C="16:00" L="At Victoria Platform 2" DE="Hammersmith" />
+        </P>
+    </S>
+    <S Code="AME" N="Amersham.">
+        <P N="Northbound - Platform 1" Code="0" Next="0">
+            <T S="000" T="0" D="513" C="12:00" L="Between Moor Park and Rickmansworth" DE="Check Front of Train" />
+            <T S="403" T="7" D="31" C="20:00" L="Between Northwood Hills and Northwood" DE="Amersham" />
+        </P>
+        <P N="Northbound - Platform 2" Code="0" Next="0">
+            <T S="401" T="6" D="507" C="1:30" L="" DE="Check Front of Train" />
+            <T S="000" T="0" D="513" C="13:00" L="Between Moor Park and Rickmansworth" DE="Check Front of Train" />
+            <T S="403" T="7" D="31" C="20:00" L="Between Northwood Hills and Northwood" DE="Amersham" />
+        </P>
+        <P N="Southbound - Platform 3" Code="1" Next="0">
+            <T S="401" T="6" D="507" C="1:30" L="" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="BST" N="Baker Street.">
+        <P N="Northbound - Platform 1" Code="0" Next="0">
+            <T S="425" T="10" D="463" C="-" L="At Platform" DE="Watford" />
+        </P>
+        <P N="Northbound - Platform 2" Code="0" Next="0">
+            <T S="405" T="7" D="31" C="1:30" L="Between Great Portland Street and Baker Street" DE="Amersham" />
+            <T S="441" T="10" D="445" C="4:30" L="At Euston Square Platform 1" DE="Uxbridge" />
+            <T S="442" T="7" D="445" C="10:00" L="Approaching Farringdon" DE="Uxbridge" />
+            <T S="641" T="81" D="414" C="10:00" L="Farringdon sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="10:00" L="Farringdon Sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="10:00" L="Farringdon Sidings" DE="Special" />
+            <T S="406" T="10" D="97" C="15:00" L="Left Liverpool Street" DE="Chesham" />
+        </P>
+        <P N="Southbound - Platform 3" Code="1" Next="0">
+            <T S="446" T="8" D="12" C="2:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="410" T="6" D="12" C="4:30" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="447" T="6" D="12" C="6:00" L="Approaching Finchley Road" DE="Aldgate" />
+            <T S="450" T="9" D="12" C="14:00" L="At Wembley Park Platform 5" DE="Aldgate" />
+            <T S="411" T="6" D="19" C="18:00" L="Between Northwick Park and  Preston Road" DE="Aldgate" />
+            <T S="451" T="9" D="19" C="22:00" L="At Harrow-on-the-Hill Platform 5" DE="Aldgate" />
+            <T S="427" T="8" D="507" C="24:00" L="At North Harrow Platform 2" DE="Check Front of Train" />
+            <T S="430" T="9" D="507" C="29:00" L="At Eastcote Platform 2" DE="Check Front of Train" />
+        </P>
+        <P N="Northbound - Platform 4" Code="0" Next="0" />
+        <P N="Eastbound - Platform 5" Code="1" Next="0">
+            <T S="267" T="8" D="80" C="-" L="At Platform" DE="Barking" />
+            <T S="203" T="11" D="518" C="5:00" L="Between Paddington and Edgware Road" DE="Check Front of Train" />
+            <T S="702" T="1" D="518" C="7:00" L="Between Notting Hill Gate and Paddington" DE="Check Front of Train" />
+            <T S="270" T="6" D="518" C="9:00" L="Between Ladbroke Grove and Royal Oak" DE="Check Front of Train" />
+            <T S="204" T="15" D="518" C="15:00" L="Between Goldhawk Road and Wood Lane" DE="Check Front of Train" />
+            <T S="216" T="10" D="103" C="18:00" L="At Sloane Square Platform 1" DE="Circle Line" />
+            <T S="217" T="12" D="103" C="24:00" L="At Westminster Platform 1" DE="Circle Line" />
+        </P>
+        <P N="Westbound - Platform 6" Code="0" Next="0">
+            <T S="274" T="8" D="196" C="3:30" L="At Great Portland Street Platform 1" DE="Hammersmith" />
+            <T S="210" T="12" D="196" C="9:00" L="Between Farringdon and King's Cross" DE="Hammersmith" />
+            <T S="275" T="6" D="196" C="12:00" L="Between Moorgate and Barbican" DE="Hammersmith" />
+            <T S="211" T="13" D="196" C="18:00" L="At Aldgate Platform 4" DE="Hammersmith" />
+            <T S="276" T="6" D="196" C="22:00" L="At Whitechapel Platform 2" DE="Hammersmith" />
+            <T S="050" T="5" D="196" C="24:00" L="At Stepney Green Platform 1" DE="Hammersmith" />
+            <T S="212" T="11" D="196" C="25:00" L="Between Blackfriars and Mansion House" DE="Hammersmith" />
+        </P>
+    </S>
+    <S Code="BAR" N="Barbican.">
+        <P N="Eastbound - Platform 1" Code="1" Next="0">
+            <T S="266" T="6" D="80" C="1:30" L="Approaching Farringdon" DE="Barking" />
+            <T S="445" T="7" D="12" C="4:00" L="Between King's Cross and Farringdon" DE="Aldgate" />
+            <T S="202" T="13" D="103" C="5:00" L="Between Euston Square and King's Cross" DE="Circle Line" />
+            <T S="267" T="8" D="80" C="12:00" L="At Baker Street Platform 5" DE="Barking" />
+            <T S="446" T="8" D="12" C="14:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="410" T="6" D="12" C="17:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="203" T="11" D="518" C="17:00" L="Between Paddington and Edgware Road" DE="Check Front of Train" />
+            <T S="447" T="6" D="12" C="18:00" L="Approaching Finchley Road" DE="Aldgate" />
+            <T S="702" T="1" D="518" C="19:00" L="Between Notting Hill Gate and Paddington" DE="Check Front of Train" />
+            <T S="270" T="6" D="518" C="21:00" L="Between Ladbroke Grove and Royal Oak" DE="Check Front of Train" />
+            <T S="450" T="9" D="12" C="26:00" L="At Wembley Park Platform 5" DE="Aldgate" />
+            <T S="204" T="15" D="518" C="27:00" L="Between Goldhawk Road and Wood Lane" DE="Check Front of Train" />
+        </P>
+        <P N="Westbound - Platform 2" Code="0" Next="0">
+            <T S="275" T="6" D="196" C="1:00" L="Between Moorgate and Barbican" DE="Hammersmith" />
+            <T S="406" T="10" D="97" C="3:30" L="Left Liverpool Street" DE="Chesham" />
+            <T S="211" T="13" D="196" C="7:00" L="At Aldgate Platform 4" DE="Hammersmith" />
+            <T S="276" T="6" D="196" C="10:00" L="At Whitechapel Platform 2" DE="Hammersmith" />
+            <T S="050" T="5" D="196" C="12:00" L="At Stepney Green Platform 1" DE="Hammersmith" />
+            <T S="212" T="11" D="196" C="14:00" L="Between Blackfriars and Mansion House" DE="Hammersmith" />
+            <T S="213" T="13" D="196" C="23:00" L="At Victoria Platform 2" DE="Hammersmith" />
+            <T S="000" T="6" D="199" C="30:00" L="Between Barking and East Ham" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="CLF" N="Chalfont &amp; Latimer.">
+        <P N="Northbound - Platform 1" Code="0" Next="0">
+            <T S="402" T="7" D="98" C="3:30" L="Arriving At Chorleywood" DE="Chesham" />
+            <T S="000" T="0" D="513" C="8:00" L="Between Moor Park and Rickmansworth" DE="Check Front of Train" />
+            <T S="403" T="7" D="31" C="15:00" L="Between Northwood Hills and Northwood" DE="Amersham" />
+        </P>
+        <P N="Southbound - Platform 2" Code="1" Next="0">
+            <T S="413" T="5" D="19" C="-" L="At Platform" DE="Aldgate" />
+        </P>
+        <P N="Chesham Branch - Platform 3" Code="1" Next="0" />
+    </S>
+    <S Code="CHM" N="Chesham.">
+        <P N="North / South" Code="0" Next="0">
+            <T S="402" T="7" D="98" C="6:00" L="Arriving At Chorleywood" DE="Chesham" />
+            <T S="000" T="0" D="513" C="10:00" L="Between Moor Park and Rickmansworth" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="CWD" N="Chorleywood.">
+        <P N="Northbound - Platform 1" Code="0" Next="0">
+            <T S="402" T="7" D="98" C="1:00" L="Arriving At Chorleywood" DE="Chesham" />
+            <T S="000" T="0" D="513" C="5:00" L="Between Moor Park and Rickmansworth" DE="Check Front of Train" />
+            <T S="403" T="7" D="31" C="13:00" L="Between Northwood Hills and Northwood" DE="Amersham" />
+            <T S="404" T="7" D="97" C="28:00" L="Approaching Preston Road" DE="Chesham" />
+        </P>
+        <P N="Southbound - Platform 2" Code="1" Next="0">
+            <T S="413" T="5" D="19" C="2:30" L="At Chalfont &amp; Latimer Platform 2" DE="Aldgate" />
+        </P>
+    </S>
+    <S Code="CRX" N="Croxley.">
+        <P N="Northbound - Platform 1" Code="0" Next="0">
+            <T S="422" T="8" D="467" C="3:30" L="Left Moor Park" DE="Watford" />
+            <T S="423" T="7" D="467" C="16:00" L="Approaching North Harrow" DE="Watford" />
+        </P>
+        <P N="Southbound - Platform 2" Code="1" Next="0">
+            <T S="421" T="10" D="507" C="-" L="At Platform" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="ETE" N="Eastcote.">
+        <P N="Westbound - Platform 1" Code="0" Next="0">
+            <T S="435" T="8" D="447" C="1:00" L="Between Rayners Lane and Eastcote" DE="Uxbridge" />
+            <T S="436" T="7" D="450" C="8:00" L="Between Northwick Park and Harrow-on-the-Hill" DE="Uxbridge" />
+            <T S="437" T="7" D="445" C="15:00" L="At Wembley Park Platform 2" DE="Uxbridge" />
+            <T S="301" T="6" D="448" C="21:00" L="Between Acton Town and Ealing Common" DE="Uxbridge" />
+            <T S="440" T="9" D="445" C="23:00" L="Between Baker Street and Finchley Road" DE="Uxbridge" />
+        </P>
+        <P N="Eastbound - Platform 2" Code="1" Next="0">
+            <T S="430" T="9" D="507" C="-" L="At Platform" DE="Check Front of Train" />
+            <T S="431" T="8" D="507" C="6:00" L="At Ickenham Platform 2" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="ESQ" N="Euston Square.">
+        <P N="Westbound - Platform 1" Code="0" Next="0">
+            <T S="441" T="10" D="445" C="-" L="At Platform" DE="Uxbridge" />
+            <T S="210" T="12" D="196" C="4:30" L="Between Farringdon and King's Cross" DE="Hammersmith" />
+            <T S="442" T="7" D="445" C="6:00" L="Approaching Farringdon" DE="Uxbridge" />
+            <T S="000" T="0" D="414" C="6:00" L="Farringdon Sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="6:00" L="Farringdon Sidings" DE="Special" />
+            <T S="641" T="81" D="414" C="6:00" L="Farringdon sidings" DE="Special" />
+            <T S="275" T="6" D="196" C="8:00" L="Between Moorgate and Barbican" DE="Hammersmith" />
+            <T S="406" T="10" D="97" C="10:00" L="Left Liverpool Street" DE="Chesham" />
+            <T S="211" T="13" D="196" C="15:00" L="At Aldgate Platform 4" DE="Hammersmith" />
+            <T S="276" T="6" D="196" C="17:00" L="At Whitechapel Platform 2" DE="Hammersmith" />
+            <T S="050" T="5" D="196" C="19:00" L="At Stepney Green Platform 1" DE="Hammersmith" />
+            <T S="212" T="11" D="196" C="22:00" L="Between Blackfriars and Mansion House" DE="Hammersmith" />
+        </P>
+        <P N="Eastbound - Platform 2" Code="1" Next="0">
+            <T S="267" T="8" D="80" C="5:00" L="At Baker Street Platform 5" DE="Barking" />
+            <T S="446" T="8" D="12" C="7:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="410" T="6" D="12" C="10:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="203" T="11" D="518" C="11:00" L="Between Paddington and Edgware Road" DE="Check Front of Train" />
+            <T S="447" T="6" D="12" C="11:00" L="Approaching Finchley Road" DE="Aldgate" />
+            <T S="702" T="1" D="518" C="12:00" L="Between Notting Hill Gate and Paddington" DE="Check Front of Train" />
+            <T S="270" T="6" D="518" C="14:00" L="Between Ladbroke Grove and Royal Oak" DE="Check Front of Train" />
+            <T S="450" T="9" D="12" C="19:00" L="At Wembley Park Platform 5" DE="Aldgate" />
+            <T S="204" T="15" D="518" C="20:00" L="Between Goldhawk Road and Wood Lane" DE="Check Front of Train" />
+            <T S="411" T="6" D="19" C="23:00" L="Between Northwick Park and  Preston Road" DE="Aldgate" />
+            <T S="216" T="10" D="103" C="23:00" L="At Sloane Square Platform 1" DE="Circle Line" />
+            <T S="451" T="9" D="19" C="28:00" L="At Harrow-on-the-Hill Platform 5" DE="Aldgate" />
+            <T S="217" T="12" D="103" C="29:00" L="At Westminster Platform 1" DE="Circle Line" />
+            <T S="427" T="8" D="507" C="30:00" L="At North Harrow Platform 2" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="FAR" N="Farringdon.">
+        <P N="Eastbound - Platform 1" Code="1" Next="0">
+            <T S="266" T="6" D="80" C="1:00" L="Approaching Farringdon" DE="Barking" />
+            <T S="445" T="7" D="12" C="3:00" L="Between King's Cross and Farringdon" DE="Aldgate" />
+            <T S="202" T="13" D="103" C="5:00" L="Between Euston Square and King's Cross" DE="Circle Line" />
+            <T S="267" T="8" D="80" C="11:00" L="At Baker Street Platform 5" DE="Barking" />
+            <T S="446" T="8" D="12" C="13:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="410" T="6" D="12" C="16:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="203" T="11" D="518" C="16:00" L="Between Paddington and Edgware Road" DE="Check Front of Train" />
+            <T S="447" T="6" D="12" C="17:00" L="Approaching Finchley Road" DE="Aldgate" />
+            <T S="702" T="1" D="518" C="18:00" L="Between Notting Hill Gate and Paddington" DE="Check Front of Train" />
+            <T S="270" T="6" D="518" C="20:00" L="Between Ladbroke Grove and Royal Oak" DE="Check Front of Train" />
+            <T S="450" T="9" D="12" C="25:00" L="At Wembley Park Platform 5" DE="Aldgate" />
+            <T S="204" T="15" D="518" C="26:00" L="Between Goldhawk Road and Wood Lane" DE="Check Front of Train" />
+            <T S="411" T="6" D="19" C="29:00" L="Between Northwick Park and  Preston Road" DE="Aldgate" />
+            <T S="216" T="10" D="103" C="29:00" L="At Sloane Square Platform 1" DE="Circle Line" />
+        </P>
+        <P N="Westbound - Platform 2" Code="0" Next="0">
+            <T S="442" T="7" D="445" C="0:30" L="Approaching Farringdon" DE="Uxbridge" />
+            <T S="000" T="0" D="414" C="1:00" L="Farringdon Sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="1:00" L="Farringdon Sidings" DE="Special" />
+            <T S="641" T="81" D="414" C="1:00" L="Farringdon sidings" DE="Special" />
+            <T S="275" T="6" D="196" C="3:00" L="Between Moorgate and Barbican" DE="Hammersmith" />
+            <T S="406" T="10" D="97" C="5:00" L="Left Liverpool Street" DE="Chesham" />
+            <T S="211" T="13" D="196" C="9:00" L="At Aldgate Platform 4" DE="Hammersmith" />
+            <T S="276" T="6" D="196" C="12:00" L="At Whitechapel Platform 2" DE="Hammersmith" />
+            <T S="050" T="5" D="196" C="14:00" L="At Stepney Green Platform 1" DE="Hammersmith" />
+            <T S="212" T="11" D="196" C="16:00" L="Between Blackfriars and Mansion House" DE="Hammersmith" />
+            <T S="213" T="13" D="196" C="25:00" L="At Victoria Platform 2" DE="Hammersmith" />
+        </P>
+    </S>
+    <S Code="FRD" N="Finchley Road.">
+        <P N="Northbound - Platform 1" Code="0" Next="0">
+            <T S="440" T="9" D="445" C="2:00" L="Between Baker Street and Finchley Road" DE="Uxbridge" />
+            <T S="405" T="7" D="31" C="7:00" L="Between Great Portland Street and Baker Street" DE="Amersham" />
+            <T S="441" T="10" D="445" C="11:00" L="At Euston Square Platform 1" DE="Uxbridge" />
+            <T S="442" T="7" D="445" C="16:00" L="Approaching Farringdon" DE="Uxbridge" />
+            <T S="000" T="0" D="414" C="17:00" L="Farringdon Sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="17:00" L="Farringdon Sidings" DE="Special" />
+            <T S="641" T="81" D="414" C="17:00" L="Farringdon sidings" DE="Special" />
+            <T S="406" T="10" D="97" C="21:00" L="Left Liverpool Street" DE="Chesham" />
+        </P>
+        <P N="Northbound - Platform 2" Code="0" Next="0">
+            <T S="311" T="7" D="416" C="2:00" L="Between St. John's Wood and Swiss Cottage" DE="Stanmore" />
+            <T S="341" T="6" D="590" C="4:30" L="Between Baker Street and St. John's Wood" DE="Wembley Park" />
+            <T S="321" T="8" D="416" C="6:00" L="Between Baker Street and St. John's Wood" DE="Stanmore" />
+            <T S="332" T="7" D="416" C="9:00" L="Between Bond Street and Baker Street" DE="Stanmore" />
+            <T S="350" T="9" D="496" C="11:00" L="Between Green Park and Bond Street" DE="Willesden Green" />
+            <T S="301" T="10" D="416" C="14:00" L="Between Westminster and Green Park" DE="Stanmore" />
+            <T S="312" T="8" D="416" C="17:00" L="At Waterloo Platform 5" DE="Stanmore" />
+            <T S="342" T="8" D="590" C="19:00" L="Left London Bridge" DE="Wembley Park" />
+            <T S="322" T="10" D="416" C="22:00" L="At Bermondsey Platform 1" DE="Stanmore" />
+            <T S="333" T="8" D="416" C="25:00" L="Between Canary Wharf and Canada Water" DE="Stanmore" />
+            <T S="351" T="8" D="496" C="28:00" L="Approaching Canary Wharf" DE="Willesden Green" />
+        </P>
+        <P N="Southbound - Platform 3" Code="1" Next="0">
+            <T S="315" T="10" D="333" C="1:00" L="Leaving West Hampstead" DE="North Greenwich" />
+            <T S="326" T="9" D="423" C="3:30" L="At Kilburn Platform 2" DE="Stratford" />
+            <T S="337" T="9" D="423" C="7:00" L="Between Dollis Hill and Willesden Green" DE="Stratford" />
+            <T S="355" T="9" D="423" C="10:00" L="At Neasden Platform 3" DE="Stratford" />
+            <T S="306" T="11" D="423" C="14:00" L="Between Wembley Park and Neasden" DE="Stratford" />
+            <T S="316" T="8" D="333" C="17:00" L="Between Kingsbury and Wembley Park" DE="North Greenwich" />
+            <T S="327" T="8" D="423" C="20:00" L="At Queensbury Platform 2" DE="Stratford" />
+            <T S="356" T="8" D="423" C="25:00" L="Between Stanmore and Canons Park" DE="Stratford" />
+        </P>
+        <P N="Southbound - Platform 4" Code="1" Next="0">
+            <T S="447" T="6" D="12" C="0:30" L="Approaching Finchley Road" DE="Aldgate" />
+            <T S="426" T="8" D="46" C="4:30" L="Left Neasden" DE="Baker Street" />
+            <T S="450" T="9" D="12" C="8:00" L="At Wembley Park Platform 5" DE="Aldgate" />
+            <T S="411" T="6" D="19" C="12:00" L="Between Northwick Park and  Preston Road" DE="Aldgate" />
+            <T S="451" T="9" D="19" C="17:00" L="At Harrow-on-the-Hill Platform 5" DE="Aldgate" />
+            <T S="427" T="8" D="507" C="19:00" L="At North Harrow Platform 2" DE="Check Front of Train" />
+            <T S="430" T="9" D="507" C="23:00" L="At Eastcote Platform 2" DE="Check Front of Train" />
+            <T S="412" T="7" D="19" C="28:00" L="At Northwood Platform 2" DE="Aldgate" />
+            <T S="431" T="8" D="507" C="29:00" L="At Ickenham Platform 2" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="GPS" N="Great Portland Street.">
+        <P N="Westbound - Platform 1" Code="0" Next="0">
+            <T S="274" T="8" D="196" C="-" L="At Platform" DE="Hammersmith" />
+            <T S="441" T="10" D="445" C="1:30" L="At Euston Square Platform 1" DE="Uxbridge" />
+            <T S="210" T="12" D="196" C="6:00" L="Between Farringdon and King's Cross" DE="Hammersmith" />
+            <T S="442" T="7" D="445" C="7:00" L="Approaching Farringdon" DE="Uxbridge" />
+            <T S="641" T="81" D="414" C="8:00" L="Farringdon sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="8:00" L="Farringdon Sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="8:00" L="Farringdon Sidings" DE="Special" />
+            <T S="275" T="6" D="196" C="9:00" L="Between Moorgate and Barbican" DE="Hammersmith" />
+            <T S="406" T="10" D="97" C="12:00" L="Left Liverpool Street" DE="Chesham" />
+            <T S="211" T="13" D="196" C="16:00" L="At Aldgate Platform 4" DE="Hammersmith" />
+            <T S="276" T="6" D="196" C="19:00" L="At Whitechapel Platform 2" DE="Hammersmith" />
+            <T S="050" T="5" D="196" C="21:00" L="At Stepney Green Platform 1" DE="Hammersmith" />
+            <T S="212" T="11" D="196" C="23:00" L="Between Blackfriars and Mansion House" DE="Hammersmith" />
+        </P>
+        <P N="Eastbound - Platform 2" Code="1" Next="0">
+            <T S="267" T="8" D="80" C="3:30" L="At Baker Street Platform 5" DE="Barking" />
+            <T S="446" T="8" D="12" C="5:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="410" T="6" D="12" C="8:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="203" T="11" D="518" C="8:00" L="Between Paddington and Edgware Road" DE="Check Front of Train" />
+            <T S="447" T="6" D="12" C="9:00" L="Approaching Finchley Road" DE="Aldgate" />
+            <T S="702" T="1" D="518" C="10:00" L="Between Notting Hill Gate and Paddington" DE="Check Front of Train" />
+            <T S="270" T="6" D="518" C="12:00" L="Between Ladbroke Grove and Royal Oak" DE="Check Front of Train" />
+            <T S="450" T="9" D="12" C="17:00" L="At Wembley Park Platform 5" DE="Aldgate" />
+            <T S="204" T="15" D="518" C="18:00" L="Between Goldhawk Road and Wood Lane" DE="Check Front of Train" />
+            <T S="411" T="6" D="19" C="21:00" L="Between Northwick Park and  Preston Road" DE="Aldgate" />
+            <T S="216" T="10" D="103" C="21:00" L="At Sloane Square Platform 1" DE="Circle Line" />
+            <T S="451" T="9" D="19" C="26:00" L="At Harrow-on-the-Hill Platform 5" DE="Aldgate" />
+            <T S="217" T="12" D="103" C="27:00" L="At Westminster Platform 1" DE="Circle Line" />
+            <T S="427" T="8" D="507" C="28:00" L="At North Harrow Platform 2" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="HOH" N="Harrow on the Hill.">
+        <P N="Northbound Main - Platform 1" Code="0" Next="0">
+            <T S="000" T="0" D="414" C="28:00" L="Farringdon Sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="28:00" L="Farringdon Sidings" DE="Special" />
+            <T S="641" T="81" D="414" C="28:00" L="Farringdon sidings" DE="Special" />
+        </P>
+        <P N="Southbound Main - Platform 2" Code="1" Next="0">
+            <T S="000" T="0" D="259" C="17:00" L="Between Chalfont &amp; Latimer and Rickmansworth" DE="Chiltern Trains" />
+        </P>
+        <P N="Northbound Fast - Platform 3" Code="0" Next="0">
+            <T S="436" T="7" D="450" C="1:00" L="Between Northwick Park and Harrow-on-the-Hill" DE="Uxbridge" />
+            <T S="404" T="7" D="97" C="6:00" L="Approaching Preston Road" DE="Chesham" />
+            <T S="437" T="7" D="445" C="8:00" L="At Wembley Park Platform 2" DE="Uxbridge" />
+            <T S="424" T="8" D="463" C="12:00" L="Between Finchley Road and Willesden Green" DE="Watford" />
+            <T S="440" T="9" D="445" C="16:00" L="Between Baker Street and Finchley Road" DE="Uxbridge" />
+            <T S="405" T="7" D="31" C="22:00" L="Between Great Portland Street and Baker Street" DE="Amersham" />
+            <T S="441" T="10" D="445" C="25:00" L="At Euston Square Platform 1" DE="Uxbridge" />
+            <T S="000" T="0" D="414" C="27:00" L="Farringdon Sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="27:00" L="Farringdon Sidings" DE="Special" />
+            <T S="641" T="81" D="414" C="27:00" L="Farringdon sidings" DE="Special" />
+        </P>
+        <P N="Northbound - Platform 4" Code="0" Next="0">
+            <T S="436" T="7" D="450" C="1:30" L="Between Northwick Park and Harrow-on-the-Hill" DE="Uxbridge" />
+            <T S="404" T="7" D="97" C="6:00" L="Approaching Preston Road" DE="Chesham" />
+            <T S="437" T="7" D="445" C="8:00" L="At Wembley Park Platform 2" DE="Uxbridge" />
+            <T S="424" T="8" D="463" C="12:00" L="Between Finchley Road and Willesden Green" DE="Watford" />
+            <T S="440" T="9" D="445" C="16:00" L="Between Baker Street and Finchley Road" DE="Uxbridge" />
+            <T S="405" T="7" D="31" C="22:00" L="Between Great Portland Street and Baker Street" DE="Amersham" />
+            <T S="441" T="10" D="445" C="25:00" L="At Euston Square Platform 1" DE="Uxbridge" />
+            <T S="000" T="0" D="414" C="28:00" L="Farringdon Sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="28:00" L="Farringdon Sidings" DE="Special" />
+            <T S="641" T="81" D="414" C="28:00" L="Farringdon sidings" DE="Special" />
+        </P>
+        <P N="Southbound - Platform 5" Code="1" Next="0">
+            <T S="451" T="9" D="19" C="-" L="At Platform" DE="Aldgate" />
+            <T S="427" T="8" D="507" C="4:00" L="At North Harrow Platform 2" DE="Check Front of Train" />
+            <T S="430" T="9" D="507" C="8:00" L="At Eastcote Platform 2" DE="Check Front of Train" />
+            <T S="412" T="7" D="19" C="11:00" L="At Northwood Platform 2" DE="Aldgate" />
+            <T S="431" T="8" D="507" C="15:00" L="At Ickenham Platform 2" DE="Check Front of Train" />
+            <T S="421" T="10" D="507" C="18:00" L="At Croxley Platform 2" DE="Check Front of Train" />
+            <T S="413" T="5" D="19" C="27:00" L="At Chalfont &amp; Latimer Platform 2" DE="Aldgate" />
+        </P>
+        <P N="Southbound Fast - Platform 6" Code="1" Next="0">
+            <T S="427" T="8" D="507" C="4:00" L="At North Harrow Platform 2" DE="Check Front of Train" />
+            <T S="430" T="9" D="507" C="8:00" L="At Eastcote Platform 2" DE="Check Front of Train" />
+            <T S="412" T="7" D="19" C="11:00" L="At Northwood Platform 2" DE="Aldgate" />
+            <T S="431" T="8" D="507" C="14:00" L="At Ickenham Platform 2" DE="Check Front of Train" />
+            <T S="421" T="10" D="507" C="18:00" L="At Croxley Platform 2" DE="Check Front of Train" />
+            <T S="413" T="5" D="19" C="26:00" L="At Chalfont &amp; Latimer Platform 2" DE="Aldgate" />
+        </P>
+    </S>
+    <S Code="HDN" N="Hillingdon.">
+        <P N="Westbound - Platform 1" Code="0" Next="0">
+            <T S="434" T="8" D="447" C="1:30" L="At Ickenham Platform 1" DE="Uxbridge" />
+            <T S="364" T="5" D="448" C="3:30" L="Left Ruislip" DE="Uxbridge" />
+            <T S="435" T="8" D="447" C="8:00" L="Between Rayners Lane and Eastcote" DE="Uxbridge" />
+            <T S="436" T="7" D="450" C="15:00" L="Between Northwick Park and Harrow-on-the-Hill" DE="Uxbridge" />
+            <T S="437" T="7" D="445" C="22:00" L="At Wembley Park Platform 2" DE="Uxbridge" />
+            <T S="301" T="6" D="448" C="28:00" L="Between Acton Town and Ealing Common" DE="Uxbridge" />
+        </P>
+        <P N="Eastbound - Platform 2" Code="1" Next="0" />
+    </S>
+    <S Code="ICK" N="Ickenham.">
+        <P N="Westbound - Platform 1" Code="0" Next="0">
+            <T S="434" T="8" D="447" C="-" L="At Platform" DE="Uxbridge" />
+            <T S="364" T="5" D="448" C="2:00" L="Left Ruislip" DE="Uxbridge" />
+            <T S="435" T="8" D="447" C="6:00" L="Between Rayners Lane and Eastcote" DE="Uxbridge" />
+            <T S="436" T="7" D="450" C="14:00" L="Between Northwick Park and Harrow-on-the-Hill" DE="Uxbridge" />
+            <T S="437" T="7" D="445" C="21:00" L="At Wembley Park Platform 2" DE="Uxbridge" />
+            <T S="301" T="6" D="448" C="27:00" L="Between Acton Town and Ealing Common" DE="Uxbridge" />
+            <T S="440" T="9" D="445" C="29:00" L="Between Baker Street and Finchley Road" DE="Uxbridge" />
+        </P>
+        <P N="Eastbound - Platform 2" Code="1" Next="0">
+            <T S="431" T="8" D="507" C="-" L="At Platform" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="KXX" N="King's Cross St. Pancras.">
+        <P N="Westbound - Platform 1" Code="0" Next="0">
+            <T S="210" T="12" D="196" C="2:30" L="Between Farringdon and King's Cross" DE="Hammersmith" />
+            <T S="442" T="7" D="445" C="3:30" L="Approaching Farringdon" DE="Uxbridge" />
+            <T S="000" T="0" D="414" C="4:00" L="Farringdon Sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="4:00" L="Farringdon Sidings" DE="Special" />
+            <T S="641" T="81" D="414" C="4:00" L="Farringdon sidings" DE="Special" />
+            <T S="275" T="6" D="196" C="6:00" L="Between Moorgate and Barbican" DE="Hammersmith" />
+            <T S="406" T="10" D="97" C="8:00" L="Left Liverpool Street" DE="Chesham" />
+            <T S="211" T="13" D="196" C="13:00" L="At Aldgate Platform 4" DE="Hammersmith" />
+            <T S="276" T="6" D="196" C="15:00" L="At Whitechapel Platform 2" DE="Hammersmith" />
+            <T S="050" T="5" D="196" C="17:00" L="At Stepney Green Platform 1" DE="Hammersmith" />
+            <T S="212" T="11" D="196" C="20:00" L="Between Blackfriars and Mansion House" DE="Hammersmith" />
+            <T S="213" T="13" D="196" C="29:00" L="At Victoria Platform 2" DE="Hammersmith" />
+        </P>
+        <P N="Eastbound - Platform 2" Code="1" Next="0">
+            <T S="202" T="13" D="103" C="0:30" L="Between Euston Square and King's Cross" DE="Circle Line" />
+            <T S="267" T="8" D="80" C="7:00" L="At Baker Street Platform 5" DE="Barking" />
+            <T S="446" T="8" D="12" C="9:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="410" T="6" D="12" C="11:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="203" T="11" D="518" C="12:00" L="Between Paddington and Edgware Road" DE="Check Front of Train" />
+            <T S="447" T="6" D="12" C="13:00" L="Approaching Finchley Road" DE="Aldgate" />
+            <T S="702" T="1" D="518" C="14:00" L="Between Notting Hill Gate and Paddington" DE="Check Front of Train" />
+            <T S="270" T="6" D="518" C="16:00" L="Between Ladbroke Grove and Royal Oak" DE="Check Front of Train" />
+            <T S="450" T="9" D="12" C="21:00" L="At Wembley Park Platform 5" DE="Aldgate" />
+            <T S="204" T="15" D="518" C="22:00" L="Between Goldhawk Road and Wood Lane" DE="Check Front of Train" />
+            <T S="411" T="6" D="19" C="25:00" L="Between Northwick Park and  Preston Road" DE="Aldgate" />
+            <T S="216" T="10" D="103" C="25:00" L="At Sloane Square Platform 1" DE="Circle Line" />
+            <T S="451" T="9" D="19" C="29:00" L="At Harrow-on-the-Hill Platform 5" DE="Aldgate" />
+        </P>
+    </S>
+    <S Code="LST" N="Liverpool Street.">
+        <P N="Eastbound - Platform 1" Code="1" Next="0">
+            <T S="201" T="10" D="103" C="-" L="At Platform" DE="Circle Line" />
+            <T S="407" T="8" D="12" C="2:00" L="At Moorgate Platform 1" DE="Aldgate" />
+            <T S="266" T="6" D="80" C="5:00" L="Approaching Farringdon" DE="Barking" />
+            <T S="445" T="7" D="12" C="8:00" L="Between King's Cross and Farringdon" DE="Aldgate" />
+            <T S="202" T="13" D="103" C="9:00" L="Between Euston Square and King's Cross" DE="Circle Line" />
+            <T S="267" T="8" D="80" C="16:00" L="At Baker Street Platform 5" DE="Barking" />
+            <T S="446" T="8" D="12" C="18:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="410" T="6" D="12" C="20:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="203" T="11" D="518" C="21:00" L="Between Paddington and Edgware Road" DE="Check Front of Train" />
+            <T S="447" T="6" D="12" C="22:00" L="Approaching Finchley Road" DE="Aldgate" />
+            <T S="702" T="1" D="518" C="23:00" L="Between Notting Hill Gate and Paddington" DE="Check Front of Train" />
+            <T S="270" T="6" D="518" C="25:00" L="Between Ladbroke Grove and Royal Oak" DE="Check Front of Train" />
+            <T S="450" T="9" D="12" C="30:00" L="At Wembley Park Platform 5" DE="Aldgate" />
+        </P>
+        <P N="Westbound - Platform 2" Code="0" Next="0">
+            <T S="211" T="13" D="196" C="3:00" L="At Aldgate Platform 4" DE="Hammersmith" />
+            <T S="276" T="6" D="196" C="6:00" L="At Whitechapel Platform 2" DE="Hammersmith" />
+            <T S="050" T="5" D="196" C="8:00" L="At Stepney Green Platform 1" DE="Hammersmith" />
+            <T S="212" T="11" D="196" C="10:00" L="Between Blackfriars and Mansion House" DE="Hammersmith" />
+            <T S="213" T="13" D="196" C="19:00" L="At Victoria Platform 2" DE="Hammersmith" />
+            <T S="000" T="6" D="199" C="26:00" L="Between Barking and East Ham" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="MPK" N="Moor Park.">
+        <P N="Northbound - Platform 1" Code="0" Next="0" />
+        <P N="Southbound Main - Platform 2" Code="1" Next="0" />
+        <P N="Northbound - Platform 3" Code="0" Next="0">
+            <T S="403" T="7" D="31" C="3:30" L="Between Northwood Hills and Northwood" DE="Amersham" />
+            <T S="423" T="7" D="467" C="11:00" L="Approaching North Harrow" DE="Watford" />
+            <T S="404" T="7" D="97" C="19:00" L="Approaching Preston Road" DE="Chesham" />
+            <T S="424" T="8" D="463" C="26:00" L="Between Finchley Road and Willesden Green" DE="Watford" />
+        </P>
+        <P N="Southbound - Platform 4" Code="1" Next="0">
+            <T S="421" T="10" D="507" C="3:30" L="At Croxley Platform 2" DE="Check Front of Train" />
+            <T S="413" T="5" D="19" C="12:00" L="At Chalfont &amp; Latimer Platform 2" DE="Aldgate" />
+        </P>
+    </S>
+    <S Code="MGT" N="Moorgate.">
+        <P N="Eastbound - Platform 1" Code="1" Next="0">
+            <T S="407" T="8" D="12" C="-" L="At Platform" DE="Aldgate" />
+            <T S="266" T="6" D="80" C="3:30" L="Approaching Farringdon" DE="Barking" />
+            <T S="445" T="7" D="12" C="6:00" L="Between King's Cross and Farringdon" DE="Aldgate" />
+            <T S="202" T="13" D="103" C="7:00" L="Between Euston Square and King's Cross" DE="Circle Line" />
+            <T S="267" T="8" D="80" C="14:00" L="At Baker Street Platform 5" DE="Barking" />
+            <T S="446" T="8" D="12" C="16:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="410" T="6" D="12" C="19:00" L="Between Finchley Road and Baker Street" DE="Aldgate" />
+            <T S="203" T="11" D="518" C="19:00" L="Between Paddington and Edgware Road" DE="Check Front of Train" />
+            <T S="447" T="6" D="12" C="20:00" L="Approaching Finchley Road" DE="Aldgate" />
+            <T S="702" T="1" D="518" C="21:00" L="Between Notting Hill Gate and Paddington" DE="Check Front of Train" />
+            <T S="270" T="6" D="518" C="23:00" L="Between Ladbroke Grove and Royal Oak" DE="Check Front of Train" />
+            <T S="450" T="9" D="12" C="28:00" L="At Wembley Park Platform 5" DE="Aldgate" />
+            <T S="204" T="15" D="518" C="29:00" L="Between Goldhawk Road and Wood Lane" DE="Check Front of Train" />
+        </P>
+        <P N="Westbound - Platform 2" Code="0" Next="0">
+            <T S="406" T="10" D="97" C="1:00" L="Left Liverpool Street" DE="Chesham" />
+            <T S="211" T="13" D="196" C="5:00" L="At Aldgate Platform 4" DE="Hammersmith" />
+            <T S="276" T="6" D="196" C="8:00" L="At Whitechapel Platform 2" DE="Hammersmith" />
+            <T S="050" T="5" D="196" C="10:00" L="At Stepney Green Platform 1" DE="Hammersmith" />
+            <T S="212" T="11" D="196" C="12:00" L="Between Blackfriars and Mansion House" DE="Hammersmith" />
+            <T S="213" T="13" D="196" C="21:00" L="At Victoria Platform 2" DE="Hammersmith" />
+            <T S="000" T="6" D="199" C="28:00" L="Between Barking and East Ham" DE="Check Front of Train" />
+        </P>
+        <P N="Westbound - Platform 3" Code="0" Next="0">
+            <T S="444" T="9" D="290" C="3:30" L="At Barbican Platform 1" DE="Moorgate" />
+        </P>
+        <P N="Westbound - Platform 4" Code="0" Next="0" />
+    </S>
+    <S Code="NEA" N="Neasden.">
+        <P N="Southbound - Platform 4" Code="1" Next="0">
+            <T S="450" T="9" D="12" C="4:00" L="At Wembley Park Platform 5" DE="Aldgate" />
+            <T S="411" T="6" D="19" C="8:00" L="Between Northwick Park and  Preston Road" DE="Aldgate" />
+            <T S="451" T="9" D="19" C="12:00" L="At Harrow-on-the-Hill Platform 5" DE="Aldgate" />
+            <T S="427" T="8" D="507" C="14:00" L="At North Harrow Platform 2" DE="Check Front of Train" />
+            <T S="430" T="9" D="507" C="18:00" L="At Eastcote Platform 2" DE="Check Front of Train" />
+            <T S="412" T="7" D="19" C="23:00" L="At Northwood Platform 2" DE="Aldgate" />
+            <T S="431" T="8" D="507" C="25:00" L="At Ickenham Platform 2" DE="Check Front of Train" />
+            <T S="421" T="10" D="507" C="28:00" L="At Croxley Platform 2" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="NHR" N="North Harrow.">
+        <P N="Northbound - Platform 1" Code="0" Next="0">
+            <T S="423" T="7" D="467" C="1:00" L="Approaching North Harrow" DE="Watford" />
+            <T S="404" T="7" D="97" C="9:00" L="Approaching Preston Road" DE="Chesham" />
+            <T S="424" T="8" D="463" C="16:00" L="Between Finchley Road and Willesden Green" DE="Watford" />
+            <T S="405" T="7" D="31" C="25:00" L="Between Great Portland Street and Baker Street" DE="Amersham" />
+        </P>
+        <P N="Southbound - Platform 2" Code="1" Next="0">
+            <T S="427" T="8" D="507" C="-" L="At Platform" DE="Check Front of Train" />
+            <T S="412" T="7" D="19" C="7:00" L="At Northwood Platform 2" DE="Aldgate" />
+            <T S="421" T="10" D="507" C="14:00" L="At Croxley Platform 2" DE="Check Front of Train" />
+            <T S="413" T="5" D="19" C="23:00" L="At Chalfont &amp; Latimer Platform 2" DE="Aldgate" />
+        </P>
+    </S>
+    <S Code="NWP" N="Northwick Park.">
+        <P N="Northbound - Platform 1" Code="0" Next="0">
+            <T S="404" T="7" D="97" C="3:00" L="Approaching Preston Road" DE="Chesham" />
+            <T S="437" T="7" D="445" C="5:00" L="At Wembley Park Platform 2" DE="Uxbridge" />
+            <T S="424" T="8" D="463" C="9:00" L="Between Finchley Road and Willesden Green" DE="Watford" />
+            <T S="440" T="9" D="445" C="13:00" L="Between Baker Street and Finchley Road" DE="Uxbridge" />
+            <T S="405" T="7" D="31" C="19:00" L="Between Great Portland Street and Baker Street" DE="Amersham" />
+            <T S="441" T="10" D="445" C="22:00" L="At Euston Square Platform 1" DE="Uxbridge" />
+            <T S="442" T="7" D="445" C="28:00" L="Approaching Farringdon" DE="Uxbridge" />
+            <T S="641" T="81" D="414" C="28:00" L="Farringdon sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="28:00" L="Farringdon Sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="28:00" L="Farringdon Sidings" DE="Special" />
+        </P>
+    </S>
+    <S Code="NWD" N="Northwood.">
+        <P N="Northbound - Platform 1" Code="0" Next="0">
+            <T S="403" T="7" D="31" C="1:00" L="Between Northwood Hills and Northwood" DE="Amersham" />
+            <T S="423" T="7" D="467" C="9:00" L="Approaching North Harrow" DE="Watford" />
+            <T S="404" T="7" D="97" C="17:00" L="Approaching Preston Road" DE="Chesham" />
+            <T S="424" T="8" D="463" C="23:00" L="Between Finchley Road and Willesden Green" DE="Watford" />
+        </P>
+        <P N="Southbound - Platform 2" Code="1" Next="0">
+            <T S="412" T="7" D="19" C="-" L="At Platform" DE="Aldgate" />
+            <T S="421" T="10" D="507" C="7:00" L="At Croxley Platform 2" DE="Check Front of Train" />
+            <T S="413" T="5" D="19" C="15:00" L="At Chalfont &amp; Latimer Platform 2" DE="Aldgate" />
+        </P>
+    </S>
+    <S Code="NWH" N="Northwood Hills.">
+        <P N="Northbound - Platform 1" Code="0" Next="0">
+            <T S="423" T="7" D="467" C="6:00" L="Approaching North Harrow" DE="Watford" />
+            <T S="404" T="7" D="97" C="14:00" L="Approaching Preston Road" DE="Chesham" />
+            <T S="424" T="8" D="463" C="21:00" L="Between Finchley Road and Willesden Green" DE="Watford" />
+        </P>
+        <P N="Southbound - Platform 2" Code="1" Next="0">
+            <T S="412" T="7" D="19" C="2:30" L="At Northwood Platform 2" DE="Aldgate" />
+            <T S="421" T="10" D="507" C="9:00" L="At Croxley Platform 2" DE="Check Front of Train" />
+            <T S="413" T="5" D="19" C="18:00" L="At Chalfont &amp; Latimer Platform 2" DE="Aldgate" />
+        </P>
+    </S>
+    <S Code="PIN" N="Pinner.">
+        <P N="Northbound - Platform 1" Code="0" Next="0">
+            <T S="423" T="7" D="467" C="3:30" L="Approaching North Harrow" DE="Watford" />
+            <T S="404" T="7" D="97" C="11:00" L="Approaching Preston Road" DE="Chesham" />
+            <T S="424" T="8" D="463" C="18:00" L="Between Finchley Road and Willesden Green" DE="Watford" />
+            <T S="405" T="7" D="31" C="27:00" L="Between Great Portland Street and Baker Street" DE="Amersham" />
+        </P>
+        <P N="Southbound - Platform 2" Code="1" Next="0">
+            <T S="412" T="7" D="19" C="5:00" L="At Northwood Platform 2" DE="Aldgate" />
+            <T S="421" T="10" D="507" C="12:00" L="At Croxley Platform 2" DE="Check Front of Train" />
+            <T S="413" T="5" D="19" C="20:00" L="At Chalfont &amp; Latimer Platform 2" DE="Aldgate" />
+        </P>
+    </S>
+    <S Code="RLN" N="Rayners Lane.">
+        <P N="Westbound - Platform 1" Code="0" Next="0">
+            <T S="436" T="7" D="450" C="6:00" L="Between Northwick Park and Harrow-on-the-Hill" DE="Uxbridge" />
+            <T S="254" T="6" D="372" C="6:00" L="Between Sudbury Hill and South Harrow" DE="Rayners Lane" />
+            <T S="437" T="7" D="445" C="13:00" L="At Wembley Park Platform 2" DE="Uxbridge" />
+            <T S="301" T="6" D="448" C="19:00" L="Between Acton Town and Ealing Common" DE="Uxbridge" />
+            <T S="440" T="9" D="445" C="21:00" L="Between Baker Street and Finchley Road" DE="Uxbridge" />
+            <T S="000" T="0" D="372" C="29:00" L="Between Barons Court and Hammersmith" DE="Rayners Lane" />
+            <T S="441" T="10" D="445" C="30:00" L="At Euston Square Platform 1" DE="Uxbridge" />
+        </P>
+        <P N="Eastbound - Platform 2" Code="1" Next="0">
+            <T S="430" T="9" D="507" C="3:30" L="At Eastcote Platform 2" DE="Check Front of Train" />
+            <T S="431" T="8" D="507" C="9:00" L="At Ickenham Platform 2" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="RKY" N="Rickmansworth.">
+        <P N="Northbound - Platform 1" Code="0" Next="0">
+            <T S="000" T="0" D="513" C="2:00" L="Between Moor Park and Rickmansworth" DE="Check Front of Train" />
+            <T S="403" T="7" D="31" C="9:00" L="Between Northwood Hills and Northwood" DE="Amersham" />
+            <T S="404" T="7" D="97" C="25:00" L="Approaching Preston Road" DE="Chesham" />
+        </P>
+        <P N="Southbound - Platform 2" Code="1" Next="0">
+            <T S="000" T="0" D="259" C="2:30" L="Between Chalfont &amp; Latimer and Rickmansworth" DE="Chiltern Trains" />
+            <T S="413" T="5" D="19" C="5:00" L="At Chalfont &amp; Latimer Platform 2" DE="Aldgate" />
+        </P>
+    </S>
+    <S Code="RUI" N="Ruislip.">
+        <P N="Westbound - Platform 1" Code="0" Next="0">
+            <T S="435" T="8" D="447" C="4:00" L="Between Rayners Lane and Eastcote" DE="Uxbridge" />
+            <T S="436" T="7" D="450" C="11:00" L="Between Northwick Park and Harrow-on-the-Hill" DE="Uxbridge" />
+            <T S="437" T="7" D="445" C="18:00" L="At Wembley Park Platform 2" DE="Uxbridge" />
+            <T S="301" T="6" D="448" C="24:00" L="Between Acton Town and Ealing Common" DE="Uxbridge" />
+            <T S="440" T="9" D="445" C="26:00" L="Between Baker Street and Finchley Road" DE="Uxbridge" />
+        </P>
+        <P N="Eastbound - Platform 2" Code="1" Next="0">
+            <T S="431" T="8" D="507" C="3:00" L="At Ickenham Platform 2" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="RUM" N="Ruislip Manor.">
+        <P N="Westbound - Platform 1" Code="0" Next="0">
+            <T S="435" T="8" D="447" C="2:00" L="Between Rayners Lane and Eastcote" DE="Uxbridge" />
+            <T S="436" T="7" D="450" C="9:00" L="Between Northwick Park and Harrow-on-the-Hill" DE="Uxbridge" />
+            <T S="437" T="7" D="445" C="16:00" L="At Wembley Park Platform 2" DE="Uxbridge" />
+            <T S="301" T="6" D="448" C="23:00" L="Between Acton Town and Ealing Common" DE="Uxbridge" />
+            <T S="440" T="9" D="445" C="25:00" L="Between Baker Street and Finchley Road" DE="Uxbridge" />
+        </P>
+        <P N="Eastbound - Platform 2" Code="1" Next="0">
+            <T S="431" T="8" D="507" C="4:30" L="At Ickenham Platform 2" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="UXB" N="Uxbridge.">
+        <P N="Eastbound - Platform 1" Code="1" Next="0">
+            <T S="432" T="7" D="507" C="-" L="At Platform" DE="Check Front of Train" />
+            <T S="434" T="8" D="447" C="5:00" L="At Ickenham Platform 1" DE="Uxbridge" />
+            <T S="364" T="5" D="448" C="7:00" L="Left Ruislip" DE="Uxbridge" />
+            <T S="435" T="8" D="447" C="12:00" L="Between Rayners Lane and Eastcote" DE="Uxbridge" />
+            <T S="436" T="7" D="450" C="19:00" L="Between Northwick Park and Harrow-on-the-Hill" DE="Uxbridge" />
+            <T S="437" T="7" D="445" C="26:00" L="At Wembley Park Platform 2" DE="Uxbridge" />
+        </P>
+        <P N="Eastbound - Platform 2" Code="1" Next="0">
+            <T S="000" T="0" D="359" C="-" L="At Platform" DE="Check Front of Train" />
+            <T S="434" T="8" D="447" C="5:00" L="At Ickenham Platform 1" DE="Uxbridge" />
+            <T S="364" T="5" D="448" C="7:00" L="Left Ruislip" DE="Uxbridge" />
+            <T S="435" T="8" D="447" C="12:00" L="Between Rayners Lane and Eastcote" DE="Uxbridge" />
+            <T S="436" T="7" D="450" C="19:00" L="Between Northwick Park and Harrow-on-the-Hill" DE="Uxbridge" />
+            <T S="437" T="7" D="445" C="26:00" L="At Wembley Park Platform 2" DE="Uxbridge" />
+        </P>
+        <P N="Eastbound - Platform 4" Code="1" Next="0">
+            <T S="433" T="7" D="507" C="-" L="At Platform" DE="Check Front of Train" />
+            <T S="434" T="8" D="447" C="6:00" L="At Ickenham Platform 1" DE="Uxbridge" />
+            <T S="364" T="5" D="448" C="7:00" L="Left Ruislip" DE="Uxbridge" />
+            <T S="435" T="8" D="447" C="12:00" L="Between Rayners Lane and Eastcote" DE="Uxbridge" />
+            <T S="436" T="7" D="450" C="19:00" L="Between Northwick Park and Harrow-on-the-Hill" DE="Uxbridge" />
+            <T S="437" T="7" D="445" C="26:00" L="At Wembley Park Platform 2" DE="Uxbridge" />
+        </P>
+    </S>
+    <S Code="WAT" N="Watford.">
+        <P N="Southbound - Platform 1" Code="1" Next="0">
+            <T S="422" T="8" D="467" C="7:00" L="Left Moor Park" DE="Watford" />
+            <T S="423" T="7" D="467" C="20:00" L="Approaching North Harrow" DE="Watford" />
+        </P>
+        <P N="Southbound - Platform 2" Code="1" Next="0">
+            <T S="422" T="8" D="467" C="8:00" L="Left Moor Park" DE="Watford" />
+            <T S="423" T="7" D="467" C="20:00" L="Approaching North Harrow" DE="Watford" />
+        </P>
+    </S>
+    <S Code="WPK" N="Wembley Park.">
+        <P N="Northbound - Platform 1" Code="0" Next="0">
+            <T S="000" T="0" D="414" C="23:00" L="Farringdon Sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="23:00" L="Farringdon Sidings" DE="Special" />
+            <T S="641" T="81" D="414" C="23:00" L="Farringdon sidings" DE="Special" />
+        </P>
+        <P N="Northbound - Platform 2" Code="0" Next="0">
+            <T S="437" T="7" D="445" C="-" L="At Platform" DE="Uxbridge" />
+            <T S="424" T="8" D="463" C="5:00" L="Between Finchley Road and Willesden Green" DE="Watford" />
+            <T S="440" T="9" D="445" C="9:00" L="Between Baker Street and Finchley Road" DE="Uxbridge" />
+            <T S="405" T="7" D="31" C="14:00" L="Between Great Portland Street and Baker Street" DE="Amersham" />
+            <T S="441" T="10" D="445" C="17:00" L="At Euston Square Platform 1" DE="Uxbridge" />
+            <T S="442" T="7" D="445" C="23:00" L="Approaching Farringdon" DE="Uxbridge" />
+            <T S="641" T="81" D="414" C="23:00" L="Farringdon sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="23:00" L="Farringdon Sidings" DE="Special" />
+            <T S="000" T="0" D="414" C="23:00" L="Farringdon Sidings" DE="Special" />
+            <T S="406" T="10" D="97" C="28:00" L="Left Liverpool Street" DE="Chesham" />
+        </P>
+        <P N="Southbound - Platform 5" Code="1" Next="0">
+            <T S="450" T="9" D="12" C="-" L="At Platform" DE="Aldgate" />
+            <T S="411" T="6" D="19" C="4:30" L="Between Northwick Park and  Preston Road" DE="Aldgate" />
+            <T S="451" T="9" D="19" C="8:00" L="At Harrow-on-the-Hill Platform 5" DE="Aldgate" />
+            <T S="427" T="8" D="507" C="12:00" L="At North Harrow Platform 2" DE="Check Front of Train" />
+            <T S="430" T="9" D="507" C="16:00" L="At Eastcote Platform 2" DE="Check Front of Train" />
+            <T S="412" T="7" D="19" C="19:00" L="At Northwood Platform 2" DE="Aldgate" />
+            <T S="431" T="8" D="507" C="22:00" L="At Ickenham Platform 2" DE="Check Front of Train" />
+            <T S="421" T="10" D="507" C="26:00" L="At Croxley Platform 2" DE="Check Front of Train" />
+        </P>
+        <P N="Southbound - Platform 6" Code="1" Next="0" />
+    </S>
+    <S Code="WHR" N="West Harrow.">
+        <P N="Northbound - Platform 1" Code="0" Next="0">
+            <T S="436" T="7" D="450" C="3:30" L="Between Northwick Park and Harrow-on-the-Hill" DE="Uxbridge" />
+            <T S="437" T="7" D="445" C="10:00" L="At Wembley Park Platform 2" DE="Uxbridge" />
+            <T S="440" T="9" D="445" C="19:00" L="Between Baker Street and Finchley Road" DE="Uxbridge" />
+            <T S="441" T="10" D="445" C="28:00" L="At Euston Square Platform 1" DE="Uxbridge" />
+        </P>
+        <P N="Southbound - Platform 2" Code="1" Next="0">
+            <T S="430" T="9" D="507" C="5:00" L="At Eastcote Platform 2" DE="Check Front of Train" />
+            <T S="431" T="8" D="507" C="12:00" L="At Ickenham Platform 2" DE="Check Front of Train" />
+        </P>
+    </S>
+    <S Code="WLG" N="Willesden Green.">
+        <P N="Southbound - Platform 4" Code="1" Next="0">
+            <T S="427" T="8" D="507" C="16:00" L="At North Harrow Platform 2" DE="Check Front of Train" />
+            <T S="430" T="9" D="507" C="20:00" L="At Eastcote Platform 2" DE="Check Front of Train" />
+            <T S="431" T="8" D="507" C="27:00" L="At Ickenham Platform 2" DE="Check Front of Train" />
+            <T S="421" T="10" D="507" C="30:00" L="At Croxley Platform 2" DE="Check Front of Train" />
+        </P>
+    </S>
+</ROOT>
