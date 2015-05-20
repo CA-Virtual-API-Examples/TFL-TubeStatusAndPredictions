@@ -1,0 +1,44 @@
+200
+
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStationStatus 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    xmlns="http://webservices.lul.co.uk/">
+    <StationStatus ID="55" StatusDetails="This station is open for exit only until early November due to planned upgrade work. Also at weekends westbound trains will not stop">
+        <Station ID="55" Name="Covent Garden" />
+        <Status ID="EO" CssClass="DisruptedService" Description="Exit Only" IsActive="true">
+            <StatusType ID="2" Description="Station" />
+        </Status>
+    </StationStatus>
+    <StationStatus ID="69" StatusDetails="No Step free exit available to street level while we fix a faulty lift. Call our Travel Information Centre on 0843 222 1234 if you need help planning your journey.">
+        <Station ID="69" Name="Edgware" />
+        <Status ID="NS" CssClass="Closed" Description="No Step Free Access" IsActive="true">
+            <StatusType ID="2" Description="Station" />
+        </Status>
+    </StationStatus>
+    <StationStatus ID="139" StatusDetails="Step free access is not available to the Jubilee line due to planned upgrade work. Call our Travel Information Centre on 0343 222 1234 if you need help planning your journey.">
+        <Station ID="139" Name="London Bridge" />
+        <Status ID="NS" CssClass="Closed" Description="No Step Free Access" IsActive="true">
+            <StatusType ID="2" Description="Station" />
+        </Status>
+    </StationStatus>
+    <StationStatus ID="233" StatusDetails="This station is closed to Central line services until early December due to planned station upgrade works in preparation for Crossrail.">
+        <Station ID="233" Name="Tottenham Court Road" />
+        <Status ID="PD" CssClass="DisruptedService" Description="Part Closed" IsActive="true">
+            <StatusType ID="2" Description="Station" />
+        </Status>
+    </StationStatus>
+    <StationStatus ID="311" StatusDetails="Step free access is not available for trains towards Canary Wharf due to planned maintenance. Call our Travel Information Centre on 0343 222 1234 if you need help planning your journey.">
+        <Station ID="311" Name="Deptford Bridge" />
+        <Status ID="NS" CssClass="Closed" Description="No Step Free Access" IsActive="true">
+            <StatusType ID="2" Description="Station" />
+        </Status>
+    </StationStatus>
+    <StationStatus ID="348" StatusDetails="Step free access is not available to Victoria Dock Road due to planned upgrade work. Call our Travel Information Centre on 0843 222 1234 if you need help planning your journey.">
+        <Station ID="348" Name="Prince Regent" />
+        <Status ID="NS" CssClass="Closed" Description="No Step Free Access" IsActive="true">
+            <StatusType ID="2" Description="Station" />
+        </Status>
+    </StationStatus>
+</ArrayOfStationStatus>
