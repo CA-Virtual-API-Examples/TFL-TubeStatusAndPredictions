@@ -1,0 +1,4 @@
+GROUP-NAME:Default Group
+PAIR-NAME:Line Status
+GET /TrackerNet/LineStatus
+
