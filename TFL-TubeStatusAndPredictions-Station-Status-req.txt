@@ -1,0 +1,4 @@
+GROUP-NAME:Default Group
+PAIR-NAME:Station Status
+GET /TrackerNet/StationStatus
+
