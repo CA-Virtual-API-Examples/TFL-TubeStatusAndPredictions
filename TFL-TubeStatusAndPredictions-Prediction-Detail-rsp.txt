@@ -1,0 +1,48 @@
+200
+
+<?xml version="1.0" encoding="utf-8"?>
+<ROOT 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns="http://trackernet.lul.co.uk">
+    <Disclaimer>This system is an INFORMATION ONLY system, relying entirely on 
+				information received from the relevant Operational Railway Control System(s). It is NOT 
+				considered a safety related system in the Railway Engineering sense. However, 
+				the information reported may trigger user intervention by staff regarding possible 
+				incidents on the railway, and confirmation of the situation observed should be obtained prior 
+				to any corrective action being taken.</Disclaimer>
+    <WhenCreated>20 May 2015 13:17:20</WhenCreated>
+    <Line>{line}</Line>
+    <LineName>Metropolitan Line</LineName>
+    <S Code="{station}" Mess="" N="Aldgate." CurTime="13:17:20">
+        <P N="Eastbound - Platform 1" Num="1" TrackCode="TJXB/XCALD" NextTrain="false">
+            <T LCID="4688991" SetNo="202" TripNo="13" SecondsTo="0" TimeTo="-" Location="At Platform" Destination="Circle Line" DestCode="103" Order="0" DepartTime="12:17:05" DepartInterval="0" Departed="0" Direction="0" IsStalled="0" TrackCode="TJXB/XCALD" LN="H" />
+            <T LCID="4689221" SetNo="203" TripNo="11" SecondsTo="686" TimeTo="11:00" Location="At King's Cross Platform 2" Destination="Circle Line" DestCode="103" Order="0" DepartTime="12:17:10" DepartInterval="686" Departed="0" Direction="0" IsStalled="0" TrackCode="TJ205.SC" LN="H" />
+            <T LCID="4689921" SetNo="204" TripNo="15" SecondsTo="1275" TimeTo="21:00" Location="At Edgware Road Platform 1" Destination="Check Front of Train" DestCode="518" Order="0" DepartTime="12:14:25" DepartInterval="1275" Departed="0" Direction="0" IsStalled="0" TrackCode="TJBHEDG" LN="H" />
+            <T LCID="4689881" SetNo="271" TripNo="7" SecondsTo="1404" TimeTo="23:00" Location="Between Westbourne Park and Paddington" Destination="Check Front of Train" DestCode="518" Order="0" DepartTime="12:16:10" DepartInterval="1404" Departed="0" Direction="0" IsStalled="0" TrackCode="TBHTHROYO" LN="H" />
+            <T LCID="4690091" SetNo="205" TripNo="14" SecondsTo="1704" TimeTo="28:00" Location="Between Wood Lane and Ladbroke Grove" Destination="Check Front of Train" DestCode="518" Order="0" DepartTime="12:16:00" DepartInterval="1704" Departed="0" Direction="0" IsStalled="0" TrackCode="TBHTHLATO" LN="H" />
+        </P>
+        <P N="Northbound - Platform 2" Num="2" TrackCode="TJTB/TEALD" NextTrain="false">
+            <T LCID="4682011" SetNo="446" TripNo="8" SecondsTo="444" TimeTo="7:00" Location="At Farringdon Platform 1" Destination="Aldgate" DestCode="12" Order="0" DepartTime="12:17:10" DepartInterval="444" Departed="0" Direction="0" IsStalled="0" TrackCode="TJDF.DHFAR" LN="M" />
+            <T LCID="4685541" SetNo="410" TripNo="6" SecondsTo="550" TimeTo="9:00" Location="Between King's Cross and Farringdon" Destination="Aldgate" DestCode="12" Order="0" DepartTime="12:17:18" DepartInterval="550" Departed="0" Direction="0" IsStalled="0" TrackCode="TJ211B" LN="M" />
+            <T LCID="4684711" SetNo="447" TripNo="6" SecondsTo="1007" TimeTo="17:00" Location="Between Baker Street and Great Portland Street" Destination="Aldgate" DestCode="12" Order="0" DepartTime="12:17:18" DepartInterval="1007" Departed="0" Direction="0" IsStalled="0" TrackCode="TJWT/WUBKM" LN="M" />
+            <T LCID="4681471" SetNo="450" TripNo="9" SecondsTo="1159" TimeTo="19:00" Location="Approaching Baker Street" Destination="Aldgate" DestCode="12" Order="0" DepartTime="12:17:12" DepartInterval="1159" Departed="0" Direction="0" IsStalled="0" TrackCode="TJ889B_2" LN="M" />
+            <T LCID="4680111" SetNo="411" TripNo="7" SecondsTo="1455" TimeTo="24:00" Location="At Finchley Road Platform 4" Destination="Aldgate" DestCode="12" Order="0" DepartTime="12:17:10" DepartInterval="1455" Departed="0" Direction="0" IsStalled="0" TrackCode="TJDD.DEFNR" LN="M" />
+            <T LCID="4681941" SetNo="451" TripNo="10" SecondsTo="1625" TimeTo="27:00" Location="Left Willesden Green" Destination="Aldgate" DestCode="12" Order="0" DepartTime="12:17:17" DepartInterval="1625" Departed="0" Direction="0" IsStalled="0" TrackCode="TJ825B" LN="M" />
+        </P>
+        <P N="Northbound - Platform 3" Num="3" TrackCode="TJSB/SCALD" NextTrain="false">
+            <T LCID="4682081" SetNo="445" TripNo="8" SecondsTo="0" TimeTo="-" Location="At Platform" Destination="Uxbridge" DestCode="445" Order="0" DepartTime="12:15:14" DepartInterval="0" Departed="0" Direction="0" IsStalled="0" TrackCode="TJSB/SCALD" LN="M" />
+            <T LCID="4682011" SetNo="446" TripNo="8" SecondsTo="452" TimeTo="8:00" Location="At Farringdon Platform 1" Destination="Aldgate" DestCode="12" Order="0" DepartTime="12:17:10" DepartInterval="452" Departed="0" Direction="0" IsStalled="0" TrackCode="TJDF.DHFAR" LN="M" />
+            <T LCID="4685541" SetNo="410" TripNo="6" SecondsTo="558" TimeTo="9:00" Location="Between King's Cross and Farringdon" Destination="Aldgate" DestCode="12" Order="0" DepartTime="12:17:18" DepartInterval="558" Departed="0" Direction="0" IsStalled="0" TrackCode="TJ211B" LN="M" />
+            <T LCID="4684711" SetNo="447" TripNo="6" SecondsTo="1015" TimeTo="17:00" Location="Between Baker Street and Great Portland Street" Destination="Aldgate" DestCode="12" Order="0" DepartTime="12:17:18" DepartInterval="1015" Departed="0" Direction="0" IsStalled="0" TrackCode="TJWT/WUBKM" LN="M" />
+            <T LCID="4681471" SetNo="450" TripNo="9" SecondsTo="1167" TimeTo="19:00" Location="Approaching Baker Street" Destination="Aldgate" DestCode="12" Order="0" DepartTime="12:17:12" DepartInterval="1167" Departed="0" Direction="0" IsStalled="0" TrackCode="TJ889B_2" LN="M" />
+            <T LCID="4680111" SetNo="411" TripNo="7" SecondsTo="1463" TimeTo="24:00" Location="At Finchley Road Platform 4" Destination="Aldgate" DestCode="12" Order="0" DepartTime="12:17:10" DepartInterval="1463" Departed="0" Direction="0" IsStalled="0" TrackCode="TJDD.DEFNR" LN="M" />
+            <T LCID="4681941" SetNo="451" TripNo="10" SecondsTo="1633" TimeTo="27:00" Location="Left Willesden Green" Destination="Aldgate" DestCode="12" Order="0" DepartTime="12:17:17" DepartInterval="1633" Departed="0" Direction="0" IsStalled="0" TrackCode="TJ825B" LN="M" />
+        </P>
+        <P N="Westbound - Platform 4" Num="4" TrackCode="TJRBALD" NextTrain="false">
+            <T LCID="4688481" SetNo="213" TripNo="13" SecondsTo="297" TimeTo="5:00" Location="At Cannon Street Platform 2" Destination="Circle Line" DestCode="102" Order="0" DepartTime="12:16:45" DepartInterval="297" Departed="0" Direction="0" IsStalled="0" TrackCode="TDH.839ABC" LN="H" />
+            <T LCID="4689841" SetNo="214" TripNo="11" SecondsTo="977" TimeTo="16:00" Location="At Victoria Platform 2" Destination="Circle Line" DestCode="102" Order="0" DepartTime="12:17:11" DepartInterval="977" Departed="0" Direction="0" IsStalled="0" TrackCode="TD775.777" LN="H" />
+            <T LCID="4686831" SetNo="215" TripNo="11" SecondsTo="1609" TimeTo="27:00" Location="Between Notting Hill Gate and High Street Kensington" Destination="Circle Line" DestCode="102" Order="0" DepartTime="12:17:15" DepartInterval="1609" Departed="0" Direction="0" IsStalled="0" TrackCode="TD162BCDEF" LN="H" />
+        </P>
+    </S>
+</ROOT>
